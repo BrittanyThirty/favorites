@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite color</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What is your favorite color?</h1>
+      <p></p>
+      <form id="favorite">
+
+        <label for="color">Select Your Favorite Color</label></br>
+        <select id="Favoritecolor">
+          <option value="Beige">Beige</option>
+          <option value="ElectricOrange">Electric Orange</option>
+          <option value="HotPink">Hot Pink</option>
+        </select>
+
+
+        <br><label for="food">Select Your Favorite Food</label></br>
+        <select id="Favoritefood">
+          <option value="Mexican">Mexican</option>
+          <option value="Italian">Italian</option>
+          <option value="Chinese">Chinese</option>
+        </select>
+
+        <br><label for="vacation">Select Your Favorite Destination</label></br>
+        <select id="Favoritedestination">
+          <option value="Mexico">Mexico</option>
+          <option value="Italy">Italy</option>
+          <option value="China">China</option>
+        </select>
+        <br><button type="submit" class="btn">Submit it here</button>
+      </form>
+
+      <div class="container">
+        <ul class="listOutput">
+          <li id="output0"></li>
+          <li id="output1"></li>
+          <li id="output2"></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
